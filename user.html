@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Food Delivery</title>
+
+<style type="text/css">
+body{
+background-color: lightblue;
+}
+</style>
+
+<script type="text/javascript">
+
+function Validation() {
+                var username= 
+                    document.forms["Login Page"]["username"];
+                
+                var password = 
+                    document.forms["Login Page"]["password"];
+
+</script>
+<style>
+            div {
+                box-sizing: border-box;
+                width: 100%;
+                border: 100px solid black;
+                float: left;
+                align-content: center;
+                align-items: center;
+            }
+  
+            form {
+                margin: 0 auto;
+                width: 600px;
+            }
+        </style>
+    </head>
+  
+    <body bgcolor="lightblue">
+        <h1 style="text-align: center;">LOGIN PAGE</h1>
+         <hr color="red">
+        <form name="Login Page" action="order.html" 
+         
+              onsubmit="return Validation()" method="post">
+            <p>username: <input type="text" 
+                            size="65" name="username" /></p>
+            
+            <br />
+            <p>password: <input type="text" 
+                               size="65" name="password" />
+          </p><br>
+
+  <p>
+                <input type="submit" 
+                       value="log in" name="Submit" />
+                <input type="reset" 
+                       value="Reset" name="Reset" />
+            </p>
+        </form>
+    </body>
+</html>
